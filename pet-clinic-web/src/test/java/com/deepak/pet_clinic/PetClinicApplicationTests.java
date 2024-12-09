@@ -5,10 +5,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 public class PetClinicApplicationTests {
-
     @Test
-    void contextLoads(){
+    void loadContexts(){
 
     }
-
 }
