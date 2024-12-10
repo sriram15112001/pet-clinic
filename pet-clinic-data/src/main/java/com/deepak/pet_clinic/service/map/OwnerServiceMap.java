@@ -13,11 +13,17 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
 
     @Override
     public Owner save(Owner owner) {
-        return super.save(owner.getId(), owner);
+        return super.save(owner);
     }
 
     @Override
     public List<Owner> findAll() {
         return super.findAll();
     }
+
+    @Override
+    public int size() {
+        return super.size();
+    }
+
 }
