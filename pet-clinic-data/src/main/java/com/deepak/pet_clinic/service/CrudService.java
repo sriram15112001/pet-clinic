@@ -10,4 +10,6 @@ public interface CrudService <T, ID>{
 
     T save(T t);
 
+    int size();
+
 }
